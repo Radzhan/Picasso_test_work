@@ -1,0 +1,13 @@
+@import "src/app/styles/vars.scss";
+
+.postCard {
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  &__title {
+    margin-bottom: 60px;
+  }
+  &__body {
+    font-size: 25px;
+  }
+}
